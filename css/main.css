@@ -32,7 +32,15 @@ img:nth-child(4) {
 @media only screen and (min-width: 25em) {
 
   img {
-    max-width: 100%;
+    max-width: 49%;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
   }
 
 }
@@ -40,7 +48,11 @@ img:nth-child(4) {
 @media only screen and (min-width: 38em) {
 
   img {
-    max-width: 100%;
+    width: 32%;
+  }
+
+  img:first-child {
+    display: none;
   }
 
 }
