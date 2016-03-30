@@ -60,7 +60,11 @@ img:nth-child(4) {
 @media only screen and (min-width: 60em) {
 
   img {
-    max-width: 100%;
+    width: 24.5%;
+  }
+
+  img:first-child {
+    display: inline-block;
   }
 
 }
